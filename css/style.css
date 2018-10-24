@@ -1,0 +1,106 @@
+body{
+    background-color:#F5F5F5;
+}
+
+header, .logo{
+    position: relative;
+    display: block;
+    margin: 0px auto;
+}
+
+.logo{
+    top: 35px;
+    width: 500px;
+}
+
+.sea{    
+    display: block;
+    margin: 90px auto 0 auto;
+    width: 1250px;
+    border-top: 10px solid #08A7BA;
+}
+
+section{
+    position: relative;
+    background-color: #fff;
+    margin: 0px auto;
+    width: 1250px;
+    height: 1480px;
+}
+
+article{
+    position: absolute;
+    margin: 20px 150px;
+}
+
+h1,h2,p{ 
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    line-height: 30px ; 
+}
+
+h2{
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.image-swim{
+    margin: 20px 0px 0px 60px;
+    float: right;
+}
+
+nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    font-size:0px;
+}
+
+nav a{
+    display: inline-block;
+    width: 20%;
+    padding: 20px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size:17px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .1s all ease-in-out;
+}
+
+nav a:hover{
+    padding-top: 50px;
+}
+
+.rouge{
+    background: #A11822;
+}
+.mauve{
+    background: #A10B60;
+}
+.jaune{
+    background: #F5A21E;
+}
+.verte{
+    background: #89C241;
+}
+.bleue{
+    background: #09A8BB;
+}
+
+
